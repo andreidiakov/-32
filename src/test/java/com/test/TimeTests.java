@@ -1,13 +1,14 @@
-package org.example;
+package com.test;
 
 import org.junit.jupiter.api.Test;
-import java.math.BigInteger;
+
 import java.util.ArrayList;
 
 
 import static org.junit.jupiter.api.Assertions.assertTimeoutPreemptively;
-import static java.time.Duration.ofMillis;
+
 public class TimeTests {
+    @Test
     public void testMultPerformance() {
         int[] sizes = {100, 10000, 100000, 500000, 1000000};
         for (int size : sizes) {

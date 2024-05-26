@@ -1,4 +1,4 @@
-package org.example;
+package com.test;
 import java.io.*;
 import java.math.BigInteger;
 import java.util.ArrayList;
