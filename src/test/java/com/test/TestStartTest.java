@@ -7,13 +7,17 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-
+@TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class TestStartTest {
     private ArrayList<Long> numbers;
 
+    @BeforeAll
+    public void init() throws Exception {
+        numbers = NumberOperations.readNumbersFromFile("test_numbers.txt");
+    }
+
     @Test
     public void testMin() throws IOException {
-        numbers = NumberOperations.readNumbersFromFile("test_numbers.txt");
         assertEquals(Long.valueOf( 1), NumberOperations.getMin(numbers));
         System.out.println("Тест на минимум пройден успешно");
     }
