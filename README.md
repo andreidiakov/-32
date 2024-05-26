@@ -1,2 +1,3 @@
-![Java CI](https://github.com/your-username/java-ci-cd/actions/workflows/ci.yml/badge.svg)
+#ТЗ2
 
+![Java CI](https://github.com/andreidiakov/TechTask2/actions/workflows/ci.yml/badge.svg)
