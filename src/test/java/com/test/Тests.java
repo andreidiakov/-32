@@ -1,7 +1,6 @@
-package org.example;
+package com.test;
 import org.junit.jupiter.api.*;
 
-import java.time.Duration;
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
@@ -13,7 +12,7 @@ public class Тests {
 
     @BeforeAll
     public void init() throws Exception {
-        numbers = NumberOperations.readNumbersFromFile("/Users/andrewdiakov/Documents/ProjectTZ2/src/test/java/org/example/test_numbers.txt");
+        numbers = NumberOperations.readNumbersFromFile("test_numbers.txt");
     }
 
 

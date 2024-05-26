@@ -1,4 +1,4 @@
-package org.example;
+package com.test;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -54,7 +54,7 @@ public class NumberOperations {
 
     public static void main(String[] args) throws IOException {
 
-        ArrayList<Long> numbers = readNumbersFromFile("/Users/andrewdiakov/Documents/ProjectTZ2/src/main/java/org/example/test.txt");
+        ArrayList<Long> numbers = readNumbersFromFile("test.txt");
         System.out.println("Минимальное: " + getMin(numbers));
         System.out.println("Максимальное: " + getMax(numbers));
         System.out.println("Сумма: " + getSum(numbers));
