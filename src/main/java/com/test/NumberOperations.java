@@ -52,6 +52,7 @@ public class NumberOperations {
         return numbers;
     }
 
+
     public static void main(String[] args) throws IOException {
 
         ArrayList<Long> numbers = readNumbersFromFile("test.txt");
