@@ -52,7 +52,7 @@ public class NumberOperations {
 
     public static void main(String[] args) throws IOException {
 
-        ArrayList<Long> numbers = readNumbersFromFile("test.txt");
+        ArrayList<Long> numbers = readNumbersFromFile("test_numbers.txt");
         System.out.println("Минимальное: " + getMin(numbers));
         System.out.println("Максимальное: " + getMax(numbers));
         System.out.println("Сумма: " + getSum(numbers));
