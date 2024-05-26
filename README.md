@@ -1,4 +1,4 @@
-#ТЗ2
+## ТЗ2 Андрей Дьяков ББИ235
 
 ![Java CI](https://github.com/andreidiakov/TechTask2/actions/workflows/ci.yml/badge.svg)
 
