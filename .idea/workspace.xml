@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e0371e8-fc5c-4dd2-a33d-64d98297e8f1" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/NumberOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/NumberOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TestStartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/TestStartTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TimeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/TimeTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/NumberOperations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/TestStartTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/TimeTests.class" beforeDir="false" />
+    <list default="true" id="1a350636-0a67-4db3-8e51-424139ca5d23" name="Changes" comment="FINAL">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,22 +21,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.NumberOperations.executor": "Run",
-    "JUnit.TestStartTest.executor": "Run",
-    "JUnit.TimeTests.executor": "Run",
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.test" />
-    </key>
-  </component>
   <component name="TaskManager">
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="FINAL" />
+    <option name="LAST_COMMIT_MESSAGE" value="FINAL" />
   </component>
 </project>
