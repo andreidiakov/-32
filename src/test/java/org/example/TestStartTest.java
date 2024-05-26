@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 import static org.junit.jupiter.api.Assertions.*;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
-public class ExampleTests {
+public class TestStartTest {
     private ArrayList<Long> numbers;
 
     @BeforeAll
