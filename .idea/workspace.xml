@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95dbd175-8adf-4191-b89c-8f5c8db15052" name="Changes" comment="Again">
+    <list default="true" id="95dbd175-8adf-4191-b89c-8f5c8db15052" name="Changes" comment="Last update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/NumberOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/NumberOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/test/TestStartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/TestStartTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/Тests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_numbers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_numbers.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/TimeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/TimeTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,18 +32,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.TestStartTest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.TestStartTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TimeTests.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -61,7 +66,8 @@
       <updated>1716761735131</updated>
       <workItem from="1716761736331" duration="82000" />
       <workItem from="1716761825301" duration="65000" />
-      <workItem from="1716761950636" duration="358000" />
+      <workItem from="1716761950636" duration="4161000" />
+      <workItem from="1717266221828" duration="2564000" />
     </task>
     <task id="LOCAL-00001" summary="Again">
       <option name="closed" value="true" />
@@ -71,7 +77,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716762134352</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <option name="closed" value="true" />
+      <created>1716762553574</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716762553574</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Last update">
+      <option name="closed" value="true" />
+      <created>1716762750101</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716762750101</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +144,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test message TG" />
     <MESSAGE value="Again" />
-    <option name="LAST_COMMIT_MESSAGE" value="Again" />
+    <MESSAGE value="update" />
+    <MESSAGE value="Last update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Last update" />
   </component>
 </project>

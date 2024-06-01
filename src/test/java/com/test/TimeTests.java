@@ -8,8 +8,11 @@ import java.util.ArrayList;
 import static org.junit.jupiter.api.Assertions.assertTimeoutPreemptively;
 
 public class TimeTests {
-    @Test
-    public void testMultPerformance() {
+
+    public static void main(String[] args) {
+        testPerformance();
+    }
+    public static void testPerformance() {
         int[] sizes = {100, 10000, 100000, 500000, 1000000};
         for (int size : sizes) {
             ArrayList<Long> numbers = new ArrayList<>();
@@ -17,14 +20,23 @@ public class TimeTests {
                 numbers.add((long)(Math.random() * 1000));
             }
             long startTime = System.nanoTime();
-            NumberOperations.getMult(numbers);
+            NumberOperations.getMax(numbers);
             long endTime = System.nanoTime();
+            long duration_max = (endTime - startTime)/1000000;
+            startTime = System.nanoTime();
+            NumberOperations.getMin(numbers);
+            endTime = System.nanoTime();
+            long duration_min = (endTime - startTime)/1000000;
+            startTime = System.nanoTime();
+            NumberOperations.getMult(numbers);
+            endTime = System.nanoTime();
             long duration_mult = (endTime - startTime)/1000000;
             startTime = System.nanoTime();
             NumberOperations.getSum(numbers);
             endTime = System.nanoTime();
             long duration_sum = (endTime - startTime)/1000000;
-            System.out.println("Size: " + size + ", Time_mult: " + duration_mult + " ms; Time_sum: " + duration_sum + " ms" );
+            System.out.println("Size: " + size + " Time_max: " + duration_max + " ms; Time_min:" + duration_min +
+                    " ms; Time_mult: " + duration_mult + " ms; Time_sum: " + duration_sum + " ms." );
         }
 
     }

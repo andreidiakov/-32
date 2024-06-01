@@ -14,7 +14,7 @@ public class TestStartTest {
     @Test
     public void testMin() throws IOException {
         numbers = NumberOperations.readNumbersFromFile("test_numbers.txt");
-        assertEquals(Long.valueOf( 1), NumberOperations.getMin(numbers));
+        assertEquals(Long.valueOf(1), NumberOperations.getMin(numbers));
         System.out.println("Тест на минимум пройден успешно");
     }
 
