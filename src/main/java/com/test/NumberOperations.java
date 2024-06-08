@@ -11,7 +11,7 @@ public class NumberOperations {
     public static long getMin(ArrayList<Long> numbers) {
     long min = numbers.get(0);
         for (Long number : numbers) {
-            if (number > min) {
+            if (number < min) {
                 min = number;
             }
         }
